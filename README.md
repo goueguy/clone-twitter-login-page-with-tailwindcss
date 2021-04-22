@@ -7,4 +7,3 @@
     - installer l'extension `live server`
     - clique droit le document html et choisir `open live server`
 
-# clone-twitter-login-page-with-tailwindcss
