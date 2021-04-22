@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    
+    @variants responsive {
+        .bg-fuchsia{
+            background-color:#DD75F0;
+        }
+        .bg-green-custom{
+            background-color:#42b72a;
+        }
+        .bg-blue-twitter{
+            background-color:#3498db;
+        }
+        .bg-blue-twitter-bold{
+            background-color:rgb(26, 145, 218);
+        }
+        .text-color-twitter{
+            color:rgba(29,161,242,1.00);
+        }
+       
+    } 
+    
+}
+
+@layer components {
+    .btn{
+        @apply bg-white  py-2 rounded-full px-3  text-xs font-bold cursor-pointer tracking-wider;
+    } 
+}
