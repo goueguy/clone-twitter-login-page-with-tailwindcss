@@ -15,7 +15,16 @@ module.exports = {
       'gray':colors.gray,
       'blue':colors.blue,
       'fuchsia':colors.fuchsia,
-      
+      'purple':colors.purple
+    },
+    screens: {
+      'xs': {'min': '200px', 'max': '480px'},
+      'xsm': {'min': '481px', 'max': '540px'},
+      'sm': {'min': '640px', 'max': '767px'},
+      'md': {'min': '768px', 'max': '1023px'},
+      'lg': {'min': '1024px', 'max': '1279px'},
+      'xl': {'min': '1280px', 'max': '1535px'},
+      '2xl': {'min': '1536px'},
     }
   },
   variants: {
